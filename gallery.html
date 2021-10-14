@@ -1,0 +1,65 @@
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+  background-image:linear-gradient(rgb(118, 241, 245),rgb(245, 255, 153));
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+h2{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace
+
+}
+.row {
+  
+  text-align: center;
+</style>
+</head>
+<body>
+
+<h2>Gallery</h2> 
+
+
+<div class="row">
+  <div class="column">
+    <img src="rainbow.jpg" alt="Snow" style="width:80%">
+    <figcaption>Rainbow cake </figcaption>
+  </div>
+  <div class="column">
+    <img src="velvet.jpg" alt="Forest" style="width:80%">
+    <figcaption> Red velvet </figcaption>
+  </div>
+  <div class="column">
+    <img src="trufle.jpg" alt="Mountains" style="width:80%">
+    <figcaption>dutch trufle</figcaption>
+  </div>
+</div>
+<div class="row">
+  <div class="column">
+    <img src="berry.jpg" alt="Snow" style="width:80%">
+    <figcaption> strawberry Cake </figcaption>
+  </div>
+  <div class="column">
+    <img src="mexicanpizza.jpg" alt="Forest" style="width:60%">
+    <figcaption>mexican pizza</figcaption>
+  </div>
+  <div class="column">
+    <img src="donut.jpg" alt="Mountains" style="width:60%">
+    <figcaption>Cinnamon donut</figcaption>
+  </div>
+
+</body>
+</html>
